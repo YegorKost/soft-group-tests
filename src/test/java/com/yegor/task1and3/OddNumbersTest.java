@@ -2,8 +2,6 @@ package com.yegor.task1and3;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 /**
  * Created by YegorKost on 27.12.2016.
  */
@@ -21,7 +19,7 @@ public class OddNumbersTest {
     @Test
     public void printOddNumbersWithWile() throws Exception {
         System.out.println("Task 3 part 1 (with while loop): ");
-        oddNumbers.printOddNumbersWithWile(1, 99);
+        oddNumbers.printOddNumbersWithWhile(1, 99);
         System.out.println("\n");
     }
 

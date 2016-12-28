@@ -1,6 +1,6 @@
 package com.yegor.task6;
 
-import java.util.Arrays;
+
 import java.util.Random;
 
 /**

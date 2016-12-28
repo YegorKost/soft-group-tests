@@ -8,11 +8,11 @@ public class OddNumbers {
     public void printOddNumbersWithFor(int min, int max) {
         for (int i = min; i <= max; i++){
             if (i%2 != 0)
-                System.out.print(i+", ");
+                System.out.print(i + ", ");
         }
     }
 
-    public void printOddNumbersWithWile(int min, int max){
+    public void printOddNumbersWithWhile(int min, int max){
         while ((max - min) >= 0){
             if (min%2 != 0)
                 System.out.print(min + "; ");
